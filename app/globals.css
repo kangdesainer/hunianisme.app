@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.article-content a {
+  color: #2563eb !important;
+  text-decoration: underline !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.article-content a:hover {
+  color: #1d4ed8 !important;
+  text-decoration: underline !important;
+}
+
+.article-content .text-left {
+  text-align: left;
+}
+
+.article-content .text-center {
+  text-align: center;
+}
+
+.article-content .text-right {
+  text-align: right;
+}
+
+.article-content .text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
